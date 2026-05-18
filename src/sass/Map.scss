@@ -1,0 +1,30 @@
+@use "variables" as *;
+
+.fullscreen-map-container {
+  display: flex;
+  height: 80vh;
+  justify-content: center;
+  align-items: center;
+  background-color: $dc-dark-bg;
+  padding: 20px; // Gibt der Karte etwas Luft zum Atmen
+}
+
+.pixi-resize-container {
+  width: 100%;
+  height: 100%;
+
+  // WICHTIG: Die Höhe berechnet sich jetzt automatisch EXAKT anhand der Breite!
+  aspect-ratio: 16 / 9;
+
+  background-color: $dc-dark-sidebar;
+  border: 2px solid $dc-dark-card;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.6);
+
+  canvas {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+}
