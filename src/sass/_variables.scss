@@ -1,0 +1,34 @@
+// ==========================================================================
+// DISCORD BRAND FARBPALETTE (SASS VARIABLEN)
+// ==========================================================================
+
+// --- 1. Die Core-Markenfarben ---
+$dc-blurple: #5865f2; // Das ikonische Discord-Blau/Violett
+$dc-green: #57f287; // Online / Erfolg
+$dc-yellow: #fee75c; // Abwesend / Warnung
+$dc-fuchsia: #eb459e; // Nitro / Spezial
+$dc-red: #ed4245; // Sichten / Fehler / Beschäftigt
+
+// --- 2. Dark Mode (Die UI-Hintergründe) ---
+// Von dunkel (ganz hinten) bis heller (Karten/Popups im Vordergrund)
+$dc-dark-bg: #202225; // Ganz dunkler Hintergrund (Server-Liste ganz links)
+$dc-dark-sidebar: #2f3136; // Sidebar (Kanäle)
+$dc-dark-chat: #36393f; // Hauptchat-Hintergrund
+$dc-dark-card: #40444b; // UI-Elemente, Karten, Eingabefeld
+$dc-dark-accent: #4f545c; // Hover-Effekte auf dunklen Elementen
+
+// --- 3. Light Mode (Falls du ihn brauchst) ---
+$dc-light-bg: #ffffff;
+$dc-light-sidebar: #f2f3f5;
+$dc-light-chat: #ebedef;
+$dc-light-card: #e3e5e8;
+
+// --- 4. Text-Farben (Optimiert für Kontrast) ---
+$dc-text-white: #ffffff; // Haupttext im Dark Mode
+$dc-text-normal: #dcddde; // Normaler Text / Beschreibungen
+$dc-text-muted: #72767d; // Ausgegrauter Text / Timestamp / Platzhalter
+$dc-text-dark: #060607; // Haupttext im Light Mode
+
+// --- 5. Interaktions-Zustände ---
+$dc-blurple-hover: #4752c4;
+$dc-blurple-active: #3c45a5;
